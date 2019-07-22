@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+
+}
+html{
+	background-color: orange;
+}
+
+body{
+	margin: 1.2px; /* Often browsers have a 5px margin by deafult*/
+	  background-size: cover;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+		color: white;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: black;
+}
+
+section h1{
+	color: darkOrange;
+	font-family: 'Trade Winds', cursive;
+    font-size: 90px;
+	text-shadow: 3px 3px darkRed;
+}
+
+section h3{
+	text-shadow: 2px 2px darkRed;
+}
+
+section h4{
+	text-shadow: 2px 2px darkRed;
+	font-size: 30px;
+	text-align: center;
+}
+
+img{
+	border-radius: 8px;
+	max-width: 100%;
+  height: auto;
+}
+
+p{
+	font-size: 16px;
+	display: block;
+	color: white;
+}
+
+.link{
+    text-align: center;
+}
+
+header{
+	border-radius: 0;
+	/*background-color: navy; */
+	color: white; /* more readable on an orange background */
+	padding-top: 0px;
+	padding-bottom: 40px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+nav{
+	overflow: hidden;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+
+nav a, nav h3{
+	float: left;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+nav a{
+	color: darkGrey;
+	float: right;
+	text-align: center;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+	background-color: orange;
+	color: white;
+}
+
+.container{
+	position: relative;
+	text-align: center;
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: darkOrange;
+	font-family: 'Trade Winds', cursive;
+  font-size: 90px;
+	text-shadow: 3px 3px darkRed;
+}
+
+/* Simple grid */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+}
+
+.g-50{
+	width: 50%;
+	float: left;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+}
+
+.g-70{
+	width: 70%;
+	float: left;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
