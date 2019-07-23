@@ -35,10 +35,12 @@ section h1{
 }
 
 section h3{
+	color: orange;
 	text-shadow: 2px 2px darkRed;
 }
 
 section h4{
+	color: orange;
 	text-shadow: 2px 2px darkRed;
 	font-size: 30px;
 	text-align: left;
